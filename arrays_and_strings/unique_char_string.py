@@ -1,0 +1,1 @@
+# The following algorithm will determin if all characters in a string are unique
