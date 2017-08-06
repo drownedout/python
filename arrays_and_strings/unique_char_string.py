@@ -25,6 +25,8 @@ class UniqueCharacters(object):
 		if string is None:
 			return False
 		# Using set() to store unique characters
+		# Documentation on set() be found in the link below:
+		# https://docs.python.org/2/library/sets.html
 		character_set = set()
 		for char in string:
 			if char in character_set:

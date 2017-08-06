@@ -7,7 +7,9 @@
 	# It is case sensative
 	# Will return True or False
 
-# Importing defaultdict class from collections for hash_permutation
+# Importing defaultdict class from collections for hash_permutation.
+# For more information on defaultdict(), you can read the documentation linked below:
+# https://docs.python.org/2/library/collections.html
 from collections import defaultdict
 
 class Permutation(object):
@@ -31,8 +33,7 @@ class Permutation(object):
 
 		# defaultdict() is a built-in subclass of dict()
 		# Setting the default_factory to 'int' is useful for counting
-		# The keys placed into the dictionaries below will default to a
-		# value of 0
+		# The keys placed into the dictionaries below will default to a value of 0.
 		unique_char_count1 = defaultdict(int)
 		unique_char_count2 = defaultdict(int)
 
